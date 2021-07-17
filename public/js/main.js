@@ -8,9 +8,9 @@ const TYPING_TIMER_LENGTH = 400; // ms
 const videoGrid = document.getElementById('video-grid')
 const myVideo = document.createElement('video')
 myVideo.muted = true
-
+//
 const myPeer = new Peer(undefined, {
-    host: 'localhost',
+    host: 'hero1chat.herokuapp.com',
     port: '3001'
 })
 const peers = {}
